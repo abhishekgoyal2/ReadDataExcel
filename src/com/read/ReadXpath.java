@@ -27,7 +27,7 @@ public class ReadXpath {
 public void Readexcel() throws IOException, InterruptedException
 {
 	
-		fi = new FileInputStream("C:/Excel xpath_amazon.xlsx");
+		fi = new FileInputStream("D:/automationXpath/Excel xpath_amazon.xlsx");
 		W = new XSSFWorkbook(fi);
 		Sheet =W.getSheetAt(0);
 		lastrow =Sheet.getLastRowNum();

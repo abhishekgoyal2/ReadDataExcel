@@ -69,7 +69,7 @@ public class ReadXlsx {
 	
 	public static void main(String[] args) {
 		ReadXlsx readXlsx = new ReadXlsx();
-		readXlsx.readXLSXFile("C:/testXlsxRead.xlsx");	
+		readXlsx.readXLSXFile("D:/testXlsxRead.xlsx");	
 	}
 
 
